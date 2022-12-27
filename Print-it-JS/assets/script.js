@@ -33,7 +33,7 @@ const image = slides[count].image;
 var imgBaner = banner.getElementsByClassName("active");
 console.log(imgBaner);
 imgBaner[0].setAttribute("src", srcImage + image);
-/*console.log(image);*/
+/*console.log(images);*/
 console.log(imgBaner);
 /*p*/
 const tagline = slides[count].tagLine;
